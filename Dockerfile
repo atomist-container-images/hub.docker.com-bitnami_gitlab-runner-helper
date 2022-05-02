@@ -1,12 +1,24 @@
-# Tags: latest, 14.10.0-debian-10-r9, 14.10.0, 14-debian-10, 14
+# Tags: latest, 14.10.0-debian-10-r13, 14.10.0, 14-debian-10, 14
 FROM bitnami/gitlab-runner-helper:latest
-FROM bitnami/gitlab-runner-helper:14.10.0-debian-10-r9
+FROM bitnami/gitlab-runner-helper:14.10.0-debian-10-r13
 FROM bitnami/gitlab-runner-helper:14.10.0
 FROM bitnami/gitlab-runner-helper:14-debian-10
 FROM bitnami/gitlab-runner-helper:14
 
 # Tags: _
 FROM bitnami/gitlab-runner-helper:_
+
+# Tags: 14.10.0-debian-10-r12
+FROM bitnami/gitlab-runner-helper:14.10.0-debian-10-r12
+
+# Tags: 14.10.0-debian-10-r11
+FROM bitnami/gitlab-runner-helper:14.10.0-debian-10-r11
+
+# Tags: 14.10.0-debian-10-r10
+FROM bitnami/gitlab-runner-helper:14.10.0-debian-10-r10
+
+# Tags: 14.10.0-debian-10-r9
+FROM bitnami/gitlab-runner-helper:14.10.0-debian-10-r9
 
 # Tags: 14.10.0-debian-10-r8
 FROM bitnami/gitlab-runner-helper:14.10.0-debian-10-r8
@@ -86,15 +98,3 @@ FROM bitnami/gitlab-runner-helper:14.9.1-debian-10-r12
 
 # Tags: 14.9.1-debian-10-r11
 FROM bitnami/gitlab-runner-helper:14.9.1-debian-10-r11
-
-# Tags: 14.9.1-debian-10-r10
-FROM bitnami/gitlab-runner-helper:14.9.1-debian-10-r10
-
-# Tags: 14.9.1-debian-10-r9
-FROM bitnami/gitlab-runner-helper:14.9.1-debian-10-r9
-
-# Tags: 14.9.1-debian-10-r8
-FROM bitnami/gitlab-runner-helper:14.9.1-debian-10-r8
-
-# Tags: 14.9.1-debian-10-r7
-FROM bitnami/gitlab-runner-helper:14.9.1-debian-10-r7
